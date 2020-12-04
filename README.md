@@ -1,4 +1,6 @@
-# BOBA ENTRANCE TEST
+# Hello Boba
+
+보바 개발팀 면접용 과제입니다.
 
 ## 🎁 개발 환경 설정
 <br />
@@ -18,6 +20,8 @@ package.json 에 정의된 모듈 이외에도 더 필요한 모듈이 있다면
 해당 프로젝트는 Javascript로 구성되어 있으나, 만약 가능하다면 Typescript로 구현 할 것. 
 
 **Mobx Store 구성 시 mobx-examples 프로젝트를 참조 할 것**
+
+<p class="callout warning">MobX store 구성 시 decorator 문법을 사용하기 위해 Typescript 를 사용했습니다. Typescript 는 Javascript 의 superset 입니다. </p>
 
 <br />
 
