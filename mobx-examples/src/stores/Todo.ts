@@ -1,15 +1,11 @@
 import { action, observable } from "mobx";
 
-type TodoType = {
-  title: string;
-  content: string;
-}
 export class TodoStore {
   @observable
-  todo: TodoType[] = [];
+  todo = [];
 
   @action
-  addTodo(todo: TodoType) {
+  addTodo(todo) {
     this.todo = [
       ...this.todo,
       todo
