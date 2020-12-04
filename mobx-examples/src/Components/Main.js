@@ -28,9 +28,9 @@ const Main = () => {
   return useObserver(() => (
     <div>
       <div>
-      {counterStore.cnt}
-      <button onClick={() => counterStore.increase()}>+</button>
-      <button onClick={() => counterStore.decrease()}>-</button>
+        {counterStore.cnt}
+        <button onClick={() => counterStore.increase()}>+</button>
+        <button onClick={() => counterStore.decrease()}>-</button>
       </div>
       <div>
         <input value={title} onChange={handleChangeTitle} />
