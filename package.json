@@ -1,0 +1,11 @@
+{
+  "name": "boba-entrance-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd kiosk && yarn && cd ../web-app && yarn && cd ../mobx-examples && yarn && cd ../ && rm -rf node_modules",
+    "build": "cd kiosk && yarn build && cd../web-app && yarn build",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "license": "MIT"
+}
